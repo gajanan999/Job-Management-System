@@ -1,0 +1,7 @@
+{
+
+	"className":"com.jms.model.Job",
+	"name":"SendEmail",
+	"schedule":"0/10 * * * * ?"
+
+}
