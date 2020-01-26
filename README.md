@@ -6,15 +6,13 @@
    Example of json file is as follows,
    File_Copier.java is related class to it
    and this file you should be put into /conf/jobs/xyz.json 
+         
      {
-
 	"className":"com.jms.jobs.impl.FileCopier",
 	"name":"filecopy",
 	"schedule":"0/30 * * * * ?",
 	"inputDirectory":"C:\\Gajanan\\Test\\Input",
 	"outputDirectory":"C:\\Gajanan\\Test\\Ouput"
-	
-
       }
 
 
