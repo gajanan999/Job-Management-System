@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.jms.constants.Constants;
 import com.jms.exceptions.ConfigurationException;
 import com.jms.jobs.Job;
 
@@ -39,6 +40,7 @@ public class ConfigurationFactory {
 					    Object obj = mapper.readValue(file, cls);
 			            if(obj instanceof Job) {
 			            	Job job= (Job) obj;
+			            	job.setStatus(Constants.NOT_RUNNING);
 			            	configuration.getJobs().put(job.getName(), job);
 			            }else {
 			            	throw new Exception("Json file is not compatible with Job class");

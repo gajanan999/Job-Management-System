@@ -14,6 +14,7 @@ import org.springframework.scheduling.support.CronTrigger;
 import org.springframework.stereotype.Service;
 
 import com.jms.config.Configuration;
+import com.jms.constants.Constants;
 import com.jms.jobs.Job;
 
 @Service
@@ -64,6 +65,7 @@ public class ScheduleTaskService {
 		for(Map.Entry<String, Job> entry:jobs.entrySet()) {
 			Job job= entry.getValue();
 			if(null != job.getSchedule()) {
+				job.setStatus(Constants.QUEUED);
 				addTaskToScheduler(job.getName(), job, job.getSchedule());
 			}
 		}
