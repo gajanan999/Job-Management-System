@@ -1,0 +1,10 @@
+{
+
+	"className":"com.jms.jobs.impl.FileCopier",
+	"name":"filecopy",
+	"schedule":"0/5 * * * * ?",
+	"inputDirectory":"C:\\Gajanan\\Test\\Input",
+	"outputDirectory":"C:\\Gajanan\\Test\\Ouput"
+	
+
+}

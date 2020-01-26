@@ -1,6 +1,6 @@
 {
 
-	"className":"com.jms.model.Job",
+	"className":"com.jms.jobs.Job",
 	"name":"SendEmail",
 	"schedule":"0/10 * * * * ?"
 

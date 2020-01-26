@@ -14,7 +14,7 @@ import org.springframework.scheduling.support.CronTrigger;
 import org.springframework.stereotype.Service;
 
 import com.jms.config.Configuration;
-import com.jms.model.Job;
+import com.jms.jobs.Job;
 
 @Service
 public class ScheduleTaskService {

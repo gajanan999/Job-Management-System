@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.jms.exceptions.ConfigurationException;
-import com.jms.model.Job;
+import com.jms.jobs.Job;
 
 @Service
 public class ConfigurationFactory {

@@ -1,8 +1,0 @@
-{
-
-	"className":"com.jms.model.FileCopier",
-	"name":"filecopy",
-	"schedule":"0/5 * * * * ?",
-	"startDirectory":"C://Gajanan"
-
-}

@@ -5,7 +5,7 @@ import java.util.Map;
 
 import org.springframework.stereotype.Component;
 
-import com.jms.model.Job;
+import com.jms.jobs.Job;
 
 @Component
 public class Configuration {

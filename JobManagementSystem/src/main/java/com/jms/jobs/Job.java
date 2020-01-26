@@ -1,4 +1,4 @@
-package com.jms.model;
+package com.jms.jobs;
 
 public class Job implements Runnable{
 
