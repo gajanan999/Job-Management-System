@@ -2,9 +2,11 @@
 
 ## Job 
    It implements a runnable interface so that we can implement anything operation under it
-   package com.jms.jobs;
+       
+       
+    package com.jms.jobs;
 
-public class Job implements Runnable{
+    public class Job implements Runnable{
 
 	private String name;
 	private String schedule;
@@ -41,7 +43,7 @@ public class Job implements Runnable{
 		
 	}
 	
-}
+     }
 
 
 
