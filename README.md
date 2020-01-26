@@ -1,5 +1,24 @@
 # Job-Management-System
 
+## /Conf Folder
+   This folder contains all the job related configuration in json format
+   and you have to create a variables same as a keys in the json with same data structure so that it can be compatiable.
+   Example of json file is as follows,
+   File_Copier.java is related class to it
+   and this file you should be put into /conf/jobs/xyz.json 
+     {
+
+	"className":"com.jms.jobs.impl.FileCopier",
+	"name":"filecopy",
+	"schedule":"0/30 * * * * ?",
+	"inputDirectory":"C:\\Gajanan\\Test\\Input",
+	"outputDirectory":"C:\\Gajanan\\Test\\Ouput"
+	
+
+      }
+
+
+
 ## Job 
    It implements a runnable interface so that we can implement anything operation under it
        
